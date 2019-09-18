@@ -1,11 +1,4 @@
 <?php
-include'../db_connection/session.php';
-if(!isset($_SESSION['user_id']))
-{
-	echo '<script>window.location.href = "index.php";</script>';
-}
-include'../db_connection/db_connection.php';
-include'head_link_admin.php';
 include'public/includes/top_left_nav.php';
 ?>
                 <div class="col-lg-10 products_area" style="background:white; height:556px; ">
@@ -73,11 +66,7 @@ include'public/includes/top_left_nav.php';
                                <div class="dashboard_box1">
                                    <h4><i class="fa fa-gear"></i>&nbsp;products stock</h4>
                                    <p>
-                                   <?php
-                                      $query = mysqli_query($conn, "SELECT * FROM products"); 
-                                       $count = mysqli_num_rows($query);
-                                        echo $count;
-                                       ?>
+                                   10
                                    </p>
                                    <div class="icon">
                                        <a href="product.php">more info</a>

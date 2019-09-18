@@ -116,7 +116,7 @@ include'public/includes/head_nav.php';
             </div>
             </div>    
         </div>
-    </div> 
+    
     
     <!-- footer start-->
    <?php

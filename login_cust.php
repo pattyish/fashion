@@ -42,7 +42,7 @@ include'public/includes/head_nav.php';
                 <label class="control-label" for="input-password" style="font-family:pristina;">Password</label>
                 <input type="password" name="password" placeholder="Password" id="input-password" class="form-control" required />
                 <a href="?p=forgot_pswd">Forgotten Password</a></div>
-              <input type="submit" name="login_user"style="font-family:pristina;" value="Login" class="btn btn-primary" />
+              <input type="submit" name="login_user"style="font-family:pristina;" value="Login" class="btn btn-lg btn-primary" />
                           </form>
           
                 
